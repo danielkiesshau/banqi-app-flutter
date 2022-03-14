@@ -28,6 +28,5 @@ def generateFrameworksSpecProps(s, configuration)
   s.preserve_paths = "**/*.xcframework"
   s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES' }
 
-  s.dependency "React-Core"
   s.dependency "Flutter"
 end
